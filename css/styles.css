@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "love story";
+    src: url("../tipografias/Love Story Rough.ttf");
+}
+
+@font-face {
+    font-family: "RememberYou";
+    src: url("../tipografias/RememberYou.otf");
+}
+
+body{
+    background-color: #c54d63;
+}
+
+
+ #title{
+     font-family: love story;
+     font-size: 60px;
+     letter-spacing: 5px;
+     color: white;
+     background-color: #9a3c4e;
+     text-align: center;
+ }
+
+ .parrafo{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color: white;
+ }
+
+ #main{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .div{
+     margin: 0 auto;
+ }
+
+ .img{
+     width: 400px;
+     border: 10px solid #9a3c4e;
+     text-align: center;
+ }
+
+ .img:hover{
+     cursor: pointer;
+     box-shadow: -4px 10px 38px -3px rgba(255,255,255,1);
+ }
+
+ #img-caption{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 20px;
+ }
+
+ .subtitle{
+     font-family: love story;
+     font-size: 40px;
+     color: white;
+     text-align: center;
+     letter-spacing: 5px;
+     background-color: #9a3c4e;
+ }
+
+ .img-album{
+     width: 300px;
+     border-radius: 10px;
+     margin-left: 40px;
+ }
+
+ .album-title{
+     font-family: RememberYou;
+ }
+ .parrafo-album{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 80%;
+    margin-left: 30px;
+ }
+
+ .div1{
+     display: flex;
+     flex-direction: row;
+     margin-top: 30px;
+ }
+
+ .album-title{
+     color: white;
+     font-size: 40px;
+     margin-left: 30px;
+     letter-spacing: 4px;
+ }
+
+ .span-text1{
+     color:#9a3c4e;
+     font-weight: bold;
+ }
+
+ .span-text2{
+    color:#c54d63;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .div2{
+     display: flex;
+     flex-direction: row-reverse;
+     background-color:#9a3c4e;
+     margin-top: 30px;
+     border-radius: 10px;
+     padding: 20px;
+ }
+
+ h3{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tribute-link{
+    color: #9a3c4e;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #e88585;
+}
+
+/*Responsive*/
+
+@media (max-width: 700px){
+
+    .div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .album-title{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    
+    .img-album{
+        margin: 0 auto;
+    }
+
+    .parrafo-album{
+        width: 80%;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 50px;
+     }
+
+     .div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#9a3c4e;
+        margin-top: 20px;
+    }
+
+
+
+
+}
